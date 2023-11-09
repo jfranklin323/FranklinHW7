@@ -1,0 +1,4 @@
+#!/bin/bash
+echo "Building the myApp application"
+g++ -Wall myApp.cpp derek_LED.cpp -o myApp
+echo "Finished"
