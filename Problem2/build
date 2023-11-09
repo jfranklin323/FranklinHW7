@@ -1,0 +1,4 @@
+#!/bin/bash
+echo "Building the myBlink application"
+g++ -Wall myBlink.cpp derek_LED.cpp -o myBlink
+echo "Finished"
